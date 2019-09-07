@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://images.app.goo.gl/USnjJDuS7AYwWFkRA);
+    background-image: url(./images/background-friend.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -7,14 +7,14 @@ body{
 }
 
 .jumbotron {
-    background-color: firebrick;
+    background-color: blue;
     color: white;
     opacity: .75;
     margin-top: 20px;
 }
 
 #submit {
-    background: firebrick;
+    background: crimson;
 }
 
 #jumbo_h2 {
@@ -23,10 +23,19 @@ body{
 
 .btn-primary {
     color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+    background-color:crimson;
+    border-color: crimson;
 }
 
 .panel-title {
-    color: firebrick;
+    color: black;
+}
+#matchImg{
+    max-height: 600px;
+    max-width:480;
+}
+
+a{
+    color: white;
+    
 }

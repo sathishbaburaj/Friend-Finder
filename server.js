@@ -4,7 +4,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
-// Seed data for "database"
+// friends data for 
 var friends = require('./app/data/friends.js');
 // =============================================================
 var app = express();
@@ -26,8 +26,4 @@ require('./app/routing/htmlRoutes.js')(app);
 //============================================
 // Start the server to begin listening
 // =============================================================
-//alternative code
-// app.listen(PORT, function () {
-//     console.log('App listening on PORT ' + PORT);
-// });
 app.listen(process.env.PORT || 4000);
