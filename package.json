@@ -1,0 +1,25 @@
+{
+    "name": "friend-finder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sathishbaburaj/Friend-Finder.git"
+    },
+    "author": "sathishbbauraj",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sathishbaburaj/Friend-Finder/issues"
+    },
+    "homepage": "https://github.com/sathishbaburaj/Friend-Finder",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "path": "^0.1.7"
+    }
+  }
+  
